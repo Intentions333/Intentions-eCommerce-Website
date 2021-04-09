@@ -1,0 +1,23 @@
+FONT AWESOME KIT CODE FOR HTML HEAD ---> 
+<script src="https://kit.fontawesome.com/835d63eb66.js" crossorigin="anonymous"></script>  
+
+BOOTSTRAP CDN CSS FOR HTML HEAD --->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> 
+
+FONT AWESOME BOOTSRAP CDN HTML--> 
+<script src="https://kit.fontawesome.com/835d63eb66.js" crossorigin="anonymous"></script>
+
+JS IS ALWAYS AT THE END, JUST BEFORE </BODY..+..</HTML.
+
+CSS ALWAYS IN THE HEAD HTML.
+
+search awesome font tag for death/ratings star..quote marks etc--> have to download link/tag for each style seperatley(full)(outlined/empty..etc) at time of inclusion in HTML
+
+html code for arrow pexel pic--> &#8594;
+
+.col-2 .offer-img{
+    padding: 50px;   -----> use to size and position pic in offers header in 140css
+}
+
+
+to add icon for webpage tab title (html head) --> <link rel="icon" href="imgs\icons8-pentagram-devil-64.png" type="image/gif" sizes="16x16">
