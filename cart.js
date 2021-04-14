@@ -111,7 +111,7 @@ function displayCart(){
    <div class="price">£${item.price},00
    </div>
    <div class="quantity">
-  <ion-icon name="imgs\chevron-back-circle-sharp.svg"></ion-icon>
+  
    <span>${item.inCart}</span>
    <ion-icon name="imgs\chevron-forward-circle-sharp.svg"></ion-icon>
    </div>
