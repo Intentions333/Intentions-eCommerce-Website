@@ -1,0 +1,208 @@
+FONT AWESOME KIT CODE FOR HTML HEAD ---> 
+<script src="https://kit.fontawesome.com/835d63eb66.js" crossorigin="anonymous"></script>  
+
+BOOTSTRAP CDN CSS FOR HTML HEAD --->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> 
+
+FONT AWESOME BOOTSRAP CDN HTML--> 
+<script src="https://kit.fontawesome.com/835d63eb66.js" crossorigin="anonymous"></script>
+
+JS IS ALWAYS AT THE END, JUST BEFORE </BODY..+..</HTML.
+
+CSS ALWAYS IN THE HEAD HTML.
+
+search awesome font tag for death/ratings star..quote marks etc--> have to download link/tag for each style seperatley(full)(outlined/empty..etc) at time of inclusion in HTML
+
+html code for arrow pexel pic--> &#8594;
+
+.col-2 .offer-img{
+    padding: 50px;   -----> use to size and position pic in offers header in 140css
+}
+
+
+to add icon for webpage tab title (html head) --> <link rel="icon" href="imgs\icons8-pentagram-devil-64.png" type="image/gif" sizes="16x16">
+
+.add-cart{
+    position: absolute;
+    width: 100%;
+    background-color: rgb(83, 18, 83) ;
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+    cursor: pointer;
+    text-align: center;
+}
+.image:hover .cart1,
+.image:hover .cart2
+{
+  bottom: 50px;
+  opacity: 1;
+  padding:10px;
+  text-decoration: none;
+
+}
+
+
+
+for cart product prsentation---->carthtml
+ <div class="cart-info">
+        <img src="imgs\buddastatue1.jpeg">
+        <div>
+        <p>Budda Statue</p>
+        <small>Price: £10.00</small>
+        <br>
+        <a href="">Remove</a>
+        </div>
+    </div>
+</td>
+<td><input type="number" value="1"></td>
+<td>£10.00</td>
+
+</tr>
+<tr>
+    <td>
+        <div class="cart-info">
+            <img src="imgs\buddastatue1.jpeg">
+            <div>
+            <p>Budda Statue</p>
+            <small>Price: £10.00</small>
+            <br>
+            <a href="">Remove</a>
+            </div>
+        </div>
+    </td>
+    <td><input type="number" value="1"></td>
+    <td>£10.00</td>
+    
+    </tr>
+    <tr>
+        <td>
+            <div class="cart-info">
+                <img src="imgs\buddastatue1.jpeg">
+                <div>
+                <p>Budda Statue</p>
+                <small>Price: £10.00</small>
+                <br>
+                <a href="">Remove</a>
+                </div>
+            </div>
+        </td>
+        <td><input type="number" value="1"></td>
+        <td>£10.00</td>
+        
+        </tr>
+       
+
+</table>
+<br>
+<div class="total-price">
+    <table>
+        <tr>
+            <td>Subtotal</td>
+            <td>£30.00</td>
+        </tr>
+        <tr>
+            <td>P&P</td>
+            <td>£3.00</td>
+        </tr>
+        <tr>
+            <td>Total</td>
+            <td>£33.00</td>
+        </tr>
+
+       
+    </table>
+</div>
+
+</div>
+    
+
+
+<table>
+<tr>
+    <th>Product</th>
+    <th>Quantity</th>
+    <th>Subtotal</th>
+</tr>
+
+</table>
+<br>
+    <div class="total-price">
+        <table>
+            <tr>
+                <td>Subtotal</td>
+                <td>£</td>
+            </tr>
+            <tr>
+                <td>P&P</td>
+                <td>£</td>
+            </tr>
+            <tr>
+                <td>Total</td>
+                <td>£</td>
+            </tr>
+    
+           
+        </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+         productContainer.innerHTML += `
+    <div class="product">
+    <ion-icon name="imgs\close-circle-sharp.svg"></ion-icon>
+    <img src="./imgs/${item.tag}.jpeg">
+    <span>${item.name}</span>
+    </div>
+    <div class="price">£${item.price},00
+    </div>
+    <div class="quantity">
+   <ion-icon name="imgs\chevron-back-circle-sharp.svg"></ion-icon>
+    <span>${item.inCart}</span>
+    <ion-icon name="imgs\chevron-forward-circle-sharp.svg"></ion-icon>
+    </div>
+    <div class="total">£${item.inCart * item.price},00</div>
+    `;
+   });
+
+   productContainer.innerHTML +=`
+   <div class="basketTotalContainer">
+   <h4 class= "basketTotalTitle">
+   Basket Total   </h4>
+   <h4 class= "basketTotal">£${cartCost},00</h4>
+   </div>
+   `;
+ }
+
+
+
+
+
+.container
+.products-container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+
+     display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   margin-top: 50px;
+   padding-bottom: 100px;
+
+
+    .products img{
+    width: 75px;
+
+
+
+
