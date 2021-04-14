@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account - Intentions | Ecommerce Website</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;1,300&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/835d63eb66.js" crossorigin="anonymous"></script>
+<link rel="icon" href="imgs\Logo.jpg" type="image/gif" sizes="16x16">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> 
+</head>
+<body>
+   
+    <div class="container"> 
+        <div class="navbar">
+        <div class="logo">
+            <a href="index.html"> <img src="imgs\icons8-pentagram-devil-64.png" width="125px"></a>
+        </div>
+        <nav>
+            <ul id="menuitems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="account.html">Account</a></li>
+                <li class="cart"><a href="cart.html"> <img src="imgs\cart.jpeg" width="30px" height="30px"></a></li>
+            </ul>
+        </nav>
+        
+        <img src="imgs\icons8-menu-24.png" class="menu-icon" onclick="menutoggle()">
+    </div>  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download our app for your android phone.</p>
+            </div>
+            <div class="footer-col-2">
+              <img src="imgs\icons8-pentagram-devil-64.png" alt="">
+              <p>It Is Our Purpose To Make Our Services & Products Accessible To The Many.</p>
+              <div class="app-logo">
+                 
+                  <img src="imgs\playstore.png" alt="">
+                  <img src="imgs\app-store.png" alt="">
+              </div>
+          </div>
+          <div class="footer-col-3">
+              <h3>Useful Links</h3>
+             <ul>
+              <li>Coupons</li>
+              <li>Blog Post</li>
+              <li>Return Policy</li>
+              <li>Join Affiliate</li>
+             </ul>
+          </div>
+          <div class="footer-col-4">
+              <h3>Follow Us</h3>
+             <ul>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Instagram</li>
+              <li>Youtube</li>
+             </ul>
+          </div>
+
+        </div>
+    </div>
+    <hr><p class="copyright">Copyright 2021 - Intenions</p>
+</div>
+<!-------js for toggle menu----->
+<script>
+  var menuitems =document.getElementById("menuitems");
+
+  menuitems.style.maxHeight = "0px";
+
+  function menutoggle(){
+      if(menuitems.style.maxHeight == "0px")
+  {
+  menuitems.style.maxHeight = "200px";
+}
+else
+{ 
+  menuitems.style.maxHeight = "0px";
+}
+  }
+</script>
+
+<!---js for product gallery-->
+
+<script>
+var productimg = document.getElementById("productimg");
+var smallimg = document.getElementsByClassName("small-img");
+
+smallimg[0].onclick = function(){
+  productimg.src = smallimg[0].src;
+}
+smallimg[1].onclick = function(){
+  productimg.src = smallimg[1].src;
+}
+smallimg[2].onclick = function(){
+  productimg.src = smallimg[2].src;
+}
+smallimg[3].onclick = function(){
+  productimg.src = smallimg[3].src;
+}
+</script>
+
+</body>
+</html>
