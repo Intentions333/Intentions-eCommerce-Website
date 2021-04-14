@@ -75,7 +75,7 @@ cartItems[product.tag].inCart += 1;
 }
 
 function totalCost(product){
-//console.log("the product price is", product.price);
+
 
 let cartCost = localStorage.getItem('totalCost');
 
